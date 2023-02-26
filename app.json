@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "nft-marketplace-demo",
+    "slug": "nft-marketplace-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ebundala.nftmarketplacedemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ebundala.nftmarketplacedemo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "ebundala",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca43e814-e22c-4ef9-9738-169bce4e8392"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/ca43e814-e22c-4ef9-9738-169bce4e8392"
+    }
+  }
+}
